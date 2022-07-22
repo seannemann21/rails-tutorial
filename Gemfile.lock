@@ -78,6 +78,7 @@ GEM
       tty-pager (~> 0.12.0)
       tty-screen (~> 0.6.5)
       tty-tree (~> 0.3.0)
+    ffi (1.11.1)
     ffi (1.11.1-x64-mingw32)
     formatador (0.2.5)
     globalid (0.4.2)
@@ -125,9 +126,12 @@ GEM
       builder
       minitest (>= 5.0)
       ruby-progressbar
+    msgpack (1.2.10)
     msgpack (1.2.10-x64-mingw32)
     nenv (0.3.0)
     nio4r (2.3.1)
+    nokogiri (1.10.3)
+      mini_portile2 (~> 2.4.0)
     nokogiri (1.10.3-x64-mingw32)
       mini_portile2 (~> 2.4.0)
     notiffany (0.1.1)
@@ -136,6 +140,7 @@ GEM
     pastel (0.7.3)
       equatable (~> 0.6)
       tty-color (~> 0.5)
+    pg (1.1.4)
     pg (1.1.4-x64-mingw32)
     pry (0.12.2)
       coderay (~> 1.1.0)
@@ -224,7 +229,7 @@ GEM
     turbolinks (5.2.0)
       turbolinks-source (~> 5.2)
     turbolinks-source (5.2.0)
-    tzinfo (1.2.5)
+    tzinfo (1.2.10)
       thread_safe (~> 0.1)
     tzinfo-data (1.2019.1)
       tzinfo (>= 1.0.0)
@@ -244,6 +249,7 @@ GEM
 
 PLATFORMS
   x64-mingw32
+  x86_64-linux
 
 DEPENDENCIES
   bcrypt
